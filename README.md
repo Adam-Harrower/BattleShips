@@ -40,8 +40,8 @@
 * I have depolyed to the Heroku terminal.
 
 ## Bugs 
-* The game runs fine on the terminal but not on the Heruko terminal. 
-* I dont know how to fix that issue.
+* The game runs fine on the terminal. 
+* The game runs fine usning Heroku terminal.
 
 ## Deployment 
 * Steps for deployment.
