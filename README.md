@@ -1,31 +1,55 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Battle Ships 
 
-Welcome USER_NAME,
+## Battle ships is a Python terminal game of chance, Which runs using Code Institues mock terminal Heroku.
+* Users try to blow up the computers battle ships before all their ammo all runs out.
+* Each battle ship occupies one sqaure on the baord.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+### Here is a liver version of my game.
+![battleship screen](https://github.com/Adam-Harrower/my-full-template/assets/125028133/77f23330-16a7-44c9-89eb-8b82881dffb1)
 
-## Reminders
+## How to play.
+* Battle ships is a baord game usually played between two players, In this version, it is a one player game playing agaisnt the computer. 
+* The player first guesses a row to target and then a column. 
+* Ships hit are marked with a X and a miss is marked with a ~ on the board.
+* The player has ten shots to shoot all the battle ships before the game ends. 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## Features
+* Random board generation.
+* Ships are randomly placed on the board by the computer.
+* The player connot see the ships location on the board.
 
-## Creating the Heroku app
+![battleship screen1](https://github.com/Adam-Harrower/my-full-template/assets/125028133/ba60fd8a-c15d-44af-94d9-65519d976851)
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+* 
 
-1. `heroku/python`
-2. `heroku/nodejs`
+![battleship screen2](https://github.com/Adam-Harrower/my-full-template/assets/125028133/1361ad1e-f306-49ff-b8d0-367dbf52b78f)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+* Input validation and error checking.
+* You cannot outside of the row or column.
+* You must start with the row number before the column letter.
+* You cannot target the same area twice.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
+![battleship screen3](https://github.com/Adam-Harrower/my-full-template/assets/125028133/85a2044b-5a2e-4bf4-8f67-7bee635987d2)
 
-## Constraints
+## Testing
+* I have manually tested the game usning the following:
+* I have tested the game on the terminal within Gitpod.
+* Given invalid inputs, Letters for rows instead of numbers and vise versa to check for error messages.
+* I have targeted the same area on the board more than once to check for error messages.
+* I have depolyed to the Heroku terminal.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+## Bugs 
+* The game runs fine on the terminal but not on the Heruko terminal. 
+* I dont know how to fix that issue.
 
------
-Happy coding!
+## Deployment 
+* Steps for deployment.
+* Crete new Heruko app.
+* Set the buildpacks to python and NodeJS in the correct order.
+* Linked Heroku to the correct Gitpod repository.
+* Clicked on Deploy.
+
+## Credits 
+* Code Institue for the depolyment terminal. 
+
