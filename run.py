@@ -81,7 +81,7 @@ def count_hit_ships(board):
             if column == "X":
                 count += 1
     return count
-
+if __name__ == "__main__":
     create_ships(HIDDEN_BOARD)
     turns = 10
     while turns > 0:
