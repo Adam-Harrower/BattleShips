@@ -4,8 +4,8 @@
 * Users try to blow up the computers battle ships before all their ammo all runs out.
 * Each battle ship occupies one sqaure on the baord.
 
-### Here is a liver version of my game.
-![battleship screen](https://github.com/Adam-Harrower/my-full-template/assets/125028133/77f23330-16a7-44c9-89eb-8b82881dffb1)
+### Here is a live version of my game.
+![battleship screen4](https://github.com/Adam-Harrower/love-running-/assets/125028133/6d55362e-0377-418e-8308-13e51c0decc5)
 
 ## How to play.
 * Battle ships is a baord game usually played between two players, In this version, it is a one player game playing agaisnt the computer. 
