@@ -38,10 +38,13 @@
 * Given invalid inputs, Letters for rows instead of numbers and vise versa to check for error messages.
 * I have targeted the same area on the board more than once to check for error messages.
 * I have depolyed to the Heroku terminal.
+* the code was tested and passed using PEP8.
 
 ## Bugs 
 * The game runs fine on the terminal. 
 * The game runs fine usning Heroku terminal.
+* Enter the row of the ship: 123
+* Enter the column of the ship: ABC
 
 ## Deployment 
 * Steps for deployment.
